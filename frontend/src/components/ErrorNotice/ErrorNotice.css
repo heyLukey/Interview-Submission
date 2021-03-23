@@ -1,0 +1,22 @@
+.error-notice {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e07c7c;
+  background-color: #f8d6d6;
+}
+
+.error-text {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  color: #aa4e4e;
+}
+
+.fa-exclamation-circle {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  color: #aa4e4e;
+}

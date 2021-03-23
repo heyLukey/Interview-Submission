@@ -1,0 +1,47 @@
+/* CSS RESET */
+
+:root {
+  --my-blue: #2f7bb8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: unset;
+}
+
+@media screen and (max-width: 1200px) {
+  p,
+  ul {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 837px) {
+  p,
+  ul {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,42 @@
+#page-aboutus {
+  padding: 2% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h2,
+h4,
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#page-aboutus h4 {
+  font-weight: bold;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.about-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.about-img {
+  width: 55%;
+  object-fit: cover;
+}
+
+#page-aboutus ul {
+  list-style: disc;
+  padding-left: 16px;
+}
+
+#page-aboutus li {
+  font-weight: bold;
+}
